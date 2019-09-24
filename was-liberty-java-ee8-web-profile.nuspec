@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>was-liberty-java-ee8-web-profile</id>
+    <version>19.0.0.9</version>
+    <iconUrl>https://rawcdn.githack.com/pietvandongen/chocolatey-packages/master/was-liberty-java-ee8-web-profile/icon.png</iconUrl>
+    <packageSourceUrl>https://github.com/pietvandongen/chocolatey-packages/</packageSourceUrl>
+    <title>was-liberty-java-ee8-web-profile (Install)</title>
+    <authors>IBM</authors>
+    <owners>pietvandongen</owners>
+    <projectUrl>https://developer.ibm.com/wasdev/websphere-liberty/tree/master/was-liberty-java-ee8-web-profile</projectUrl>
+    <tags>websphere ibm liberty profile java java-ee</tags>
+    <summary>WebSphere Liberty is a fast, dynamic, and easy-to-use Java application server, built on the open source Open Liberty project.</summary>
+    <description>WebSphere Liberty is a fast, dynamic, and easy-to-use Java application server, built on the open source Open Liberty project. Ideal for developers but also ready for production, on-premise or in the cloud Liberty is a combination of IBM technology and open source software, with fast startup times (less than 2 seconds), no server restarts to pick up changes, and a simple XML configuration. All in a package (with Java EE 8 Web Profile) that’s 80 MB to download. You can be developing applications in no time. With a flexible, modular runtime you can download additional features from the Liberty Repository or strip it back to the bare essentials for deployment into production environments. Everything in Liberty is designed to help you get your job done how you want to do it. We know that integrating Liberty into your development environment is important, so you’ll find we integrate with other frameworks like Docker, Chef, Puppet, Jenkins, and UrbanCode Deploy, to name a few, all of which you can find out more about from the developer community and here on WASdev.net. It’s easy to get started. Don’t believe us? Try downloading the latest version and see for yourself...</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
